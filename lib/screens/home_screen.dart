@@ -44,7 +44,11 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
       ),
-      floatingActionButton: const NavAddButton(),
+      floatingActionButton: const NavAddButton(
+        img: "assets/images/icons/add_icon.png",
+        width: 60,
+        height: 60,
+      ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: AnimatedBottomNavigationBar(
         backgroundColor: Colors.white.withOpacity(0.05),

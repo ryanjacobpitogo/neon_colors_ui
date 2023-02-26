@@ -5,6 +5,7 @@ const kBlack = Color(0xFF19191B);
 const kMagenta = Color(0xFFFE53BB);
 const kBlue = Color(0xFF08F7FE);
 const kGreen = Color(0xFF09FBD3);
+const kAmber = Color(0xFFF2A33A);
 const kOpaqueBlack20 = Color.fromRGBO(255, 255, 255, .2);
 const kOpaqueBlack75 = Color.fromRGBO(255, 255, 255, .75);
 
@@ -18,6 +19,7 @@ List<dynamic> text = [
 //Masks
 const String mask0 = 'assets/images/masks/mask0.png';
 const String mask1 = 'assets/images/masks/mask1.png';
+const String maskCast = 'assets/images/masks/mask_cast.png';
 const String mask2 = 'assets/images/masks/mask2.png';
 
 //Images - New Movies
@@ -36,10 +38,10 @@ List<String> upcomingMovies = [
 
 //People
 List<Map<String, dynamic>> people = [
-  {"name": "Angelina Jolie", "img": "'assets/images/people/angelina.png"},
-  {"name": "Gemma Chan", "img": "'assets/images/people/gemma.png"},
-  {"name": "Salma Hayek", "img": "'assets/images/people/salma.png"},
-  {"name": "Richard Madden", "img": "'assets/images/people/richard.png"},
+  {"name": "Angelina Jolie", "img": "assets/images/people/angelina.png"},
+  {"name": "Gemma Chan", "img": "assets/images/people/gemma.png"},
+  {"name": "Salma Hayek", "img": "assets/images/people/salma.png"},
+  {"name": "Richard Madden", "img": "assets/images/people/richard.png"},
 ];
 
 //Icons

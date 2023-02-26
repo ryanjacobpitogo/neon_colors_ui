@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:neon_colors_ui/constants.dart';
 import 'package:neon_colors_ui/screens/home_screen.dart';
 import 'package:neon_colors_ui/screens/intro_screen.dart';
+import 'package:neon_colors_ui/screens/movie_modal.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        "/home" : (context) => const IntroScreen(),
+        "/home" : (context) => const MovieModal(),
+        "/movie" : (context) => const IntroScreen(),
         "/" : (context) => const HomeScreen(),
       },
       theme: ThemeData(
