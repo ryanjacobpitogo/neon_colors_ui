@@ -2,9 +2,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:gradient_borders/gradient_borders.dart';
 import 'package:neon_colors_ui/constants.dart';
-import 'package:neon_colors_ui/widgets/blurred_container.dart';
-import 'package:neon_colors_ui/widgets/intro_image.dart';
 
+import '../general_widgets/blurred_container.dart';
+import 'intro_image.dart';
 import 'intro_text.dart';
 
 class IntroPage extends StatelessWidget {

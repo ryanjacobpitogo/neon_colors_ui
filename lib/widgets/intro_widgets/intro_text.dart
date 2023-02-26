@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:gradient_borders/box_borders/gradient_box_border.dart';
 
-import '../constants.dart';
+import '../../constants.dart';
 
 class IntroText extends StatelessWidget {
   const IntroText({super.key, required this.headline, required this.desc});

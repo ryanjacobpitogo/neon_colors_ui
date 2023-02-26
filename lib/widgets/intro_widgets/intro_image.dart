@@ -3,7 +3,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:gradient_borders/box_borders/gradient_box_border.dart';
 
-import '../constants.dart';
+import '../../constants.dart';
+
 
 class IntroImage extends StatelessWidget {
   const IntroImage({super.key});
@@ -12,8 +13,8 @@ class IntroImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BackdropFilter(
       filter: ImageFilter.blur(
-        sigmaX: 25.0,
-        sigmaY: 25.0,
+        sigmaX: 35.0,
+        sigmaY: 35.0,
       ),
       child: Padding(
         padding: const EdgeInsets.only(top: 85.0),

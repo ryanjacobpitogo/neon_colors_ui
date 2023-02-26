@@ -39,6 +39,8 @@ dependencies:
   google_fonts: ^4.0.3
   gradient_borders: ^1.0.0
   smooth_page_indicator: ^1.0.1
+  widget_mask: ^1.0.0+0
+  animated_bottom_navigation_bar: ^1.1.0+1
 
 dev_dependencies:
   flutter_test:
@@ -68,7 +70,6 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/
-
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
@@ -80,6 +81,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family:  MyFlutterApp
+      fonts:
+        - asset: assets/fonts/MyFlutterApp.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
