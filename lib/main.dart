@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        "/home" : (context) => const MovieModal(),
-        "/movie" : (context) => const IntroScreen(),
-        "/" : (context) => const HomeScreen(),
+        "/" : (context) => const IntroScreen(),
+        "/home" : (context) => const HomeScreen(),
+        "/movie" : (context) => const MovieModal(),
       },
       theme: ThemeData(
         textTheme: Theme.of(context).textTheme.apply(

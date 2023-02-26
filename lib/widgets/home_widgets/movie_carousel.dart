@@ -5,7 +5,8 @@ import '../../constants.dart';
 
 class MovieCarousel extends StatelessWidget {
   const MovieCarousel({
-    super.key, required this.movieList,
+    super.key,
+    required this.movieList,
   });
 
   final List<String> movieList;
@@ -32,7 +33,9 @@ class MovieCarousel extends StatelessWidget {
                 mask = mask1;
               }
               return InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.pushNamed(context, '/movie');
+                },
                 child: Container(
                   margin: EdgeInsets.only(
                     left: index == 0 ? 15 : 0,

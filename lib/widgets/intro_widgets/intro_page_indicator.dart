@@ -10,7 +10,8 @@ class IntroPageIndicator extends StatelessWidget {
     required this.mediaWidth,
     required PageController currentPage,
     required bool finalPage,
-  }) : _currentPage = currentPage, _finalPage = finalPage;
+  })  : _currentPage = currentPage,
+        _finalPage = finalPage;
 
   final double mediaWidth;
   final PageController _currentPage;
@@ -44,7 +45,9 @@ class IntroPageIndicator extends StatelessWidget {
                     child: Material(
                       color: kBlack,
                       child: InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.pushNamed(context, '/home');
+                        },
                         child: Padding(
                           padding: const EdgeInsets.only(top: 20.0, bottom: 20),
                           child: SizedBox(

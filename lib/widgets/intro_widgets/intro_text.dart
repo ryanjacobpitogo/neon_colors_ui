@@ -44,7 +44,9 @@ class IntroText extends StatelessWidget {
               Material(
                 color: Colors.transparent,
                 child: InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.pushNamed(context, '/home');
+                  },
                   borderRadius: BorderRadius.circular(20),
                   child: Container(
                     width: 150,
@@ -57,8 +59,8 @@ class IntroText extends StatelessWidget {
                             width: 2.5),
                         borderRadius: BorderRadius.circular(20)),
                     child: Padding(
-                      padding:
-                          const EdgeInsets.symmetric(vertical: 6.0, horizontal: 20),
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 6.0, horizontal: 20),
                       child: Text(
                         "Sign up",
                         style: GoogleFonts.openSans(fontSize: 17),
